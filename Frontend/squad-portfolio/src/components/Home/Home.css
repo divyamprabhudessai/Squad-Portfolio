@@ -18,18 +18,22 @@ body{
 
 nav{
     border-bottom: 2px solid black;
-    height: 6vw;
+    height: 7vw;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Space Grotesk';
     font-weight: 500;
+    overflow-y: hidden;
     
 }
 
 .nav-cont{
     display:  flex;
     flex-direction: row;
+    align-items: center;
+    height: 8vw;
+
 
 
 }
@@ -100,6 +104,10 @@ a{
     font-size: 1.4vw;
 }
 
+#members-button:hover{
+    cursor:pointer;
+}
+
 #highlight{
     background-color: yellow;
     width: 2vw;
@@ -121,7 +129,7 @@ a{
 
 .road {
     background-color: black;
-    height: 4vw;
+    height: 4.7vw;
     margin-top: 3vw;
     overflow: hidden;
     position: relative;
@@ -150,4 +158,200 @@ a{
         transform: translateX(-50%); 
     }
 }
+
+#statistics-title{
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* gap: 0px 0px; */
+    /* width: 300px; */
+    /* height: 300px; */
+    border: 2px solid black;
+    margin-top: 2vw;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 4vw;
+    border: 1px solid black;
+    height: 40vw;
+    padding: 0;
+    row-gap: 3vw;
+}
+
+.item1-content{
+    width: 100%;
+    border-bottom: 1px solid black;
+    
+}
+
+.item1-content >.span{
+    margin-left: 2vw;
+    margin-top: 4vw;
+}
+
+
+.card {
+    /* width: 30vwvw; */
+    width: 25vw;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* position: relative; */
+    box-shadow: 5px 5px 0px 0px black; /* Simulating an overlapping border */
+    overflow: hidden;
+    height: 28vw;
+    /* margin-top: -9vw; */
+  }
+  
+  .image-container {
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px black; /* Border overlapping effect */
+    margin-bottom: 15px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    /* display: block; */
+    border-radius: 10px;
+  }
+  
+  .content h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .content p {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+  
+  .arrow {
+    /* position: absolute; */
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    /* border-radius: 50%; */
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.123);
+    width: 3vw;
+    display: flex; 
+    align-items: center;
+    justify-content: center;    
+    z-index: 1;
+    margin-top: -5vw;
+    margin-left: 16vw;
+
+  }
+
+  #act-arrow{
+    color: white;
+  }
+
+  #arrow-btn{
+    background-color: black;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .squad-members-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    justify-content: center;
+    width: auto;
+    /* margin-left: 15vw; */
+    margin-top: 8vw ;
+    margin-left: 3vw;
+}
+
+
+#squad-members-title{
+    /* margin-left: 15vw; */
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.connect{
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+    align-items: center;
+    margin-top: 4vw;
+    width: 80%;
+    align-self: center;
+    margin-left: 8vw;
+    height: 16vw;
+    border: 4px solid black;
+    box-shadow: 21px 21px 21px rgba(0, 0, 0, 0.342);
+}
+
+.connect h2 {
+    margin-top: 2vw;
+}
+
+.connect button{
+
+    width: 15vw;
+    height: 4vw;
+    background-color: #BAE6FF;
+    border-radius: 40px;
+    border: 3px solid black;
+    font-weight: 900;
+    font-size: 1vw;
+}
+
+footer{
+    margin-top: 5vw;
+    border-top: 2px solid black;
+    height: 6vw;
+    font-weight: 600;
+}
+.bot-logo{
+    display: flex;
+    font-size: 1.4vw;
+    column-gap: 0.2vw;
+}
+
+.foot-cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vw;
+
+}
+
+.foot-cont img{
+    width: 2vw;
+    height: 2vw;
+}
+  
+
+
+
+  
+
+
+
+
 
