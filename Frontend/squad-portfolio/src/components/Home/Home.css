@@ -77,6 +77,8 @@ a{
     /* border: 1px solid black ; */
     padding-left: 9vw;
     padding-bottom: 3vw;
+    display: flex;
+    justify-content: space-around;
 }
 
 #smiley{
@@ -90,6 +92,20 @@ a{
 
 }
 
+    #squad-photo{
+        margin-top: 5vw;
+        width: 40vw;
+    
+    }
+    /* #squad-photo-container{
+        height: 100%;
+        overflow-y: hidden;
+    } */
+
+
+#squad-photo-container img{
+    height: 100%;
+}
 #title{
     font-size: 2vw;
 }
