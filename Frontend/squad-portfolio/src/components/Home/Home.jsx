@@ -2,6 +2,7 @@ import React from "react";
 import './Home.css';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 export default function Home() {
     const images = [
@@ -21,7 +22,16 @@ export default function Home() {
                         </div>
                         <div className="nav-content"><a href="">About</a></div>
                         <div className="nav-content"><a href="">Stats</a></div>
+                        <div className="nav-content">
+                        <Link to="/projects">Projects</Link>
+                        </div>
+                        <div className="nav-content">
+                        <Link to="/gallery">Gallery</Link>
+                        </div>
                         <div className="nav-content"><a href="">Members</a></div>
+                    
+                       
+                            
                     </div>
                 </nav>
                 
